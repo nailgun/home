@@ -1,0 +1,7 @@
+map r :run<CR>
+map c :continue<CR>
+map n :next<CR>
+map s :step<CR>
+map f :finish<CR>
+map d :down<CR>
+map u :up<CR>

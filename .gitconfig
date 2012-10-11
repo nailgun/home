@@ -1,0 +1,18 @@
+[color]
+	ui = auto
+[instaweb]
+	local = true
+[alias]
+	ci = commit
+	co = checkout
+	br = branch
+	hist = log --graph --oneline --decorate
+	flog = log --name-status
+	what = whatchanged
+	st = status
+[core]
+	quotepath = false
+[log]
+	date = local
+[push]
+	default = current

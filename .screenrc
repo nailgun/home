@@ -1,0 +1,6 @@
+# .screenrc
+#
+
+caption always
+caption string "%{dd} %{-b dd}%-w%{gk}%n %t%{-}%+w%<"
+shell bash
