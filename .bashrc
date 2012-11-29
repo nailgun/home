@@ -81,6 +81,7 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias gvimm='gvim --remote'
 alias home='git --git-dir=$HOME/.home --work-tree=$HOME'
+alias appadd='sudo useradd -d /apphome -s /bin/bash -N -M -g apps'
 
 # include local bashrc
 [[ -f "$HOME/.bashrc_local" ]] && . "$HOME/.bashrc_local"
